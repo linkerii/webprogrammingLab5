@@ -20,6 +20,12 @@ window.onload = function() {
         const modal = document.getElementById('contactModal');
         if (modal) modal.style.display = 'block';
     }, 60000);
+    const closeBtn = document.getElementById('closeModal');
+    if (closeBtn) {
+        closeBtn.onclick = function() {
+            document.getElementById('contactModal').style.display = 'none';
+        };
+    }
 
     addThemeButton();
 };
