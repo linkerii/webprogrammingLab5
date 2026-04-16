@@ -87,12 +87,24 @@ body.light-theme strong {
     color: #111 !important;
 }
 
-.resume-container {
-    box-shadow: 0 0 25px rgba(0, 173, 181, 0.6) !important;
+body {
+    background: linear-gradient(45deg, #1a2a6c, #b21f1f, #fdbb2d) !important;
+    background-attachment: fixed !important;
+    color: #111 !important;
 }
 
-header h1 {
-    color: #ff5722 !important;
-    text-shadow: 2px 2px 4px rgba(255, 87, 34, 0.4);
+.resume-container {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    border-radius: 40px !important;
+    border: 5px solid #fff !important;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5) !important;
+}
+
+header h1, h2, h3, strong {
+    color: #b21f1f !important;
+}
+
+p, li {
+    color: #333 !important;
 }
 /* Оновлення для Лабораторної роботи №5 */
