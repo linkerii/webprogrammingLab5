@@ -60,7 +60,6 @@ function addThemeButton() {
     const themeBtn = document.createElement('button');
     themeBtn.innerText = "Змінити тему (День/Ніч)";
 
-    // Стилізація кнопки
     themeBtn.style.margin = "10px 0";
     themeBtn.style.padding = "10px 15px";
     themeBtn.style.cursor = "pointer";
@@ -84,3 +83,4 @@ if (hour >= 7 && hour < 21) {
 } else {
     document.body.classList.remove('light-theme');
 }
+// Оновлення для Лабораторної роботи №5
