@@ -87,4 +87,12 @@ body.light-theme strong {
     color: #111 !important;
 }
 
+.resume-container {
+    box-shadow: 0 0 25px rgba(0, 173, 181, 0.6) !important;
+}
+
+header h1 {
+    color: #ff5722 !important;
+    text-shadow: 2px 2px 4px rgba(255, 87, 34, 0.4);
+}
 /* Оновлення для Лабораторної роботи №5 */
